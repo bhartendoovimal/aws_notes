@@ -1,0 +1,30 @@
+AWS details
+https://aws.amazon.com/
+Sign in to the Console
+Sign in as Root user
+email address --> bhartendoovimal@gmail.com
+pass --> Bhartendoo@1
+
+Then create ur own IAM user
+1st IAM User
+URL --> 
+https://668160362293.signin.aws.amazon.com/console
+
+IAM User Name --> Vimal
+Pass --> Vimal@123
+
+Creating free tire AWS acct- 29 Sept_2022
+Root user email address --> bhartendoovimal10@gmail.com
+AWS account name --> Bharu
+pass --> Bhartendoo@123
+
+
+
+#!/bin/bash
+yum update -y
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+echo "<h1>Hello World from $(hostname -f)</h1>"> /var/www/html/index.html
+
+ssh -i inst.pem ec2-user@<public IP>
